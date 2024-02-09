@@ -21,6 +21,7 @@ class array
     }
     template<T> friend array operator+ (array &arr1,array &arr2);
 };
+
 template <typename T, int s>
 array<T,s+s> operator+ (array<T,s> &arr1,array<T,s> &arr2)
 {
